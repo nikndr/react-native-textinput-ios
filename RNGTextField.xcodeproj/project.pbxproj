@@ -7,8 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		8F87B5B4211166070036416F /* RNGTextField.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 8F87B5B1211166070036416F /* RNGTextField.h */; };
-		9323CED32534904100851365 /* RNGTextFieldManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 9323CED22534904100851365 /* RNGTextFieldManager.m */; };
+		8F87B5B4211166070036416F /* RNTextField.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 8F87B5B1211166070036416F /* RNTextField.h */; };
+		9323CED32534904100851365 /* RNTextFieldManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 9323CED22534904100851365 /* RNTextFieldManager.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -18,7 +18,7 @@
 			dstPath = "include/$(PRODUCT_NAME)";
 			dstSubfolderSpec = 16;
 			files = (
-				8F87B5B4211166070036416F /* RNGTextField.h in CopyFiles */,
+				8F87B5B4211166070036416F /* RNTextField.h in CopyFiles */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -26,9 +26,9 @@
 
 /* Begin PBXFileReference section */
 		8F87B5AE211166070036416F /* libRNGTextField.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libRNGTextField.a; sourceTree = BUILT_PRODUCTS_DIR; };
-		8F87B5B1211166070036416F /* RNGTextField.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RNGTextField.h; sourceTree = "<group>"; };
-		9323CED12534904100851365 /* RNGTextFieldManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RNGTextFieldManager.h; sourceTree = "<group>"; };
-		9323CED22534904100851365 /* RNGTextFieldManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RNGTextFieldManager.m; sourceTree = "<group>"; };
+		8F87B5B1211166070036416F /* RNTextField.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RNTextField.h; sourceTree = "<group>"; };
+		9323CED12534904100851365 /* RNTextFieldManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RNTextFieldManager.h; sourceTree = "<group>"; };
+		9323CED22534904100851365 /* RNTextFieldManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RNTextFieldManager.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,9 +61,9 @@
 		8F87B5B0211166070036416F /* RNGTextField */ = {
 			isa = PBXGroup;
 			children = (
-				8F87B5B1211166070036416F /* RNGTextField.h */,
-				9323CED12534904100851365 /* RNGTextFieldManager.h */,
-				9323CED22534904100851365 /* RNGTextFieldManager.m */,
+				8F87B5B1211166070036416F /* RNTextField.h */,
+				9323CED12534904100851365 /* RNTextFieldManager.h */,
+				9323CED22534904100851365 /* RNTextFieldManager.m */,
 			);
 			path = RNGTextField;
 			sourceTree = "<group>";
@@ -124,7 +124,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9323CED32534904100851365 /* RNGTextFieldManager.m in Sources */,
+				9323CED32534904100851365 /* RNTextFieldManager.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

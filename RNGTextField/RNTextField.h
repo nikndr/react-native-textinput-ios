@@ -9,7 +9,7 @@
 #import <UIKit/UIKit.h>
 #import <React/RCTView.h>
 
-@interface RNGTextField : UITextField
+@interface RNTextField : UITextField
 
 @property (nonatomic, strong, nullable) NSNumber *maxLength;
 @property (nonatomic, copy, nullable) RCTBubblingEventBlock onChange;
